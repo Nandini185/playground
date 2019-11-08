@@ -1,0 +1,40 @@
+﻿* {
+	box-sizing: border-box;
+}
+body {
+	background: rgb(255, 255, 255);
+	color: black;
+	line-height: 2;
+	font-family: 'Times New Roman', Times, serif;
+	padding: 1em;
+	width: 900px;
+	height: 450;
+	border: 1px solid black;
+}
+
+.container {
+	max-width: 970px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow:0 0 5px;
+	border-radius:10px;
+}
+
+.brand form {
+	display: grid;
+	grid-auto-rows: 1fr 1fr;
+}
+.brand form label{
+	display:block;
+}
+.brand form p{
+	margin:0;
+}
+	.brand form button {
+		width:75px;
+		height:35px;
+		border:0;
+		background: blue;
+		color: #ffffff;
+		border-radius: 50px;
+	}
