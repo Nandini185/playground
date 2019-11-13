@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="../CSS/StyleSheet1.css">
+    <title>Login Page</title>
+    <style>
+        input[type=button]{
+            width:75px;
+		height:35px;
+		border:0;
+		background: blue;
+		color: #ffffff;
+		border-radius: 50px;
+        }
+        </style>
+</head>
+<body>
+
+    <div class="container">
+        <h3><u>Login Page</u></h3>
+        <div class="brand">
+            <form>
+                <p>
+                    <label>Email or Username</label>
+                    <input type="text" size="40" name="name" text-align="left" />
+                     <p style="color:red;font-size:12px;">
+                        &#9888;This field is required
+                     </p>
+
+                </p>
+                <p>
+                    <label>Password</label>
+                    <input type="password" size="40" name="pass" text-align="left">
+                <p style="color:red;font-size:12px;">
+                    &#9888;This field is required
+
+                </p>
+                <p>
+                    <input type="checkbox" checked="checked" name="remember">Remember Me &nbsp;&nbsp;&nbsp;
+                    <a href="HtmlPage3.html" text-align="right">Forgot Password?</a><br><br>
+
+                </p>
+                <p>
+                    <input type="button" value="Login" onclick="location.href = 'HTMLPage2.html';">
+
+                </p>
+
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
