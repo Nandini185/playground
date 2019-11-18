@@ -1,0 +1,221 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title> Requsition Form1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .container {
+            border: 3px solid #f1f1f1;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+            height: 890px;
+            width: 1300px;
+        }
+
+        .row {
+            padding: 10px;
+            background: white;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+        }
+
+        .column {
+            float: left;
+        }
+
+        .left {
+            width: 15%;
+        }
+
+        .right {
+            width: 10%;
+        }
+
+        .middle {
+            width: 50%;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .bar {
+            width: 15px;
+            height: 3px;
+            background-color: #aaa;
+            margin: 3px 5px;
+            display: block;
+            position: relative;
+            top: 15px;
+            right: 10px;
+            left: 5px;
+
+        }
+        .column {
+            float: left;
+            width: 30.33%;
+            padding: 10px;
+            height: 70px;
+        }
+        .avatar {
+            vertical-align: middle;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            margin-right:-300px;
+            margin-left: -35px;
+            margin-bottom: 40px;
+            margin-top: 15px;
+            float: left;
+            }
+        #brand1{
+            position: relative;
+            top: 12px;
+            right: 30px;
+            left: -410px;
+    }
+        ul{
+            margin-left:90px;
+        }
+        h5{
+            margin-left:100px;
+            margin-top:50px;
+        }
+        #vertical-text{
+            float:left;
+            transform:rotate(270deg);
+            transform-origin:left top 0;
+            margin-left:15px;
+            padding:10px;
+            margin-top:165px;
+            font-size:16px;
+            font-family:Calibri;
+        }
+        .vertical-line{
+            float:left;
+            transform:rotate(0deg);
+            transform-origin:left top 0;
+            margin-left:-90px;
+            margin-top:190px;
+            
+        }
+        .vl {
+  border-left: 3px dotted black;
+  height: 58px;
+  margin-top: 7px;
+  margin-left: 35px;
+}
+        .step {
+            border: 0.5px solid black;
+            border-radius: 0.5em;
+            -moz-border-radius: 0.8em;
+            -webkit-border-radius: 0.8em;
+            color: black;
+            display: inline-block;
+            line-height: 1em;
+            margin-right: 10px;
+            text-align: center;
+            width: 1em;
+            margin-left: 30px;
+            margin-top: -55px;
+        }
+        .content {
+            padding: 2px;
+            height: 700px;
+        }
+        
+        .header {
+            background: white;
+            font-size: 30px;
+            width: 142%;
+            height: 10px;
+            margin-left: 100px;
+        }
+
+        body {
+            width: 1000px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="row">
+            <div class="column left">
+                <div style="float:left;">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+            <div class="column left">
+                <div style="float:right">
+                    <img src="../Images/img_avatar.png" alt="Avatar" class="avatar"><h6 style="font-size:12px; margin-top:20px;">John Deo</h6>
+                </div>
+            </div>
+            <div class="column left">
+                <div style="float:right">
+                    <i style='font-size:24px' class="fa" id="brand1">&#xf107;</i>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="container">
+            <div class="content">
+                <div class="row">
+                    <div class="column" style="width:100px;background-color:white;">
+                        <div id="vertical-text">
+                            <b>REQUISITION</b>
+                        </div>
+
+                        
+                        <span class="step" style="background:blue;">1</span>
+
+                        <div class="vl"></div>
+                        <span class="step">2</span>
+                        <div class="vl"></div>
+                        <span class="step">3</span>
+                        <div class="vl"></div>
+                        <span class="step">4</span>
+
+                        <div class="vl"></div>
+                        <span class="step">5</span>
+
+                        <div class="vl"></div>
+                        <span class="step">6</span>
+                    </div>
+                    <div class="column" style="width:1000px; height:720px; background:whitesmoke;margin-left:-10px;">
+
+
+                        <h5><b>NOTE</b></h5>
+                        <p style="font-size:12px; margin-left:100px;">
+                            LoremLorem ipsum dolor sit amet, consectetur adipiscing elit.Mauris mattis, tortor sit amet tempor vehicula.
+                        </p><br>
+                        <textarea rows="5" cols="50" style="margin-left:100px; border-radius:6px;">
+     
+    </textarea>
+                        <h5 style="margin-left:110px;"><b>REQUEST TYPE</b></h5>
+                        <p style="font-size:12px; margin-left:110px;">
+                            LoremLorem ipsum dolor sit amet, consectetur adipiscing elit.Mauris mattis, tortor sit amet tempor vehicula.
+                        </p><br>
+                        <ul style="list-style-type:circle;">
+                            <li>SELF</li>
+                        </ul> <br />
+                        <ul style="list-style-type:circle;">
+                            <li>TEAM/DEPARTMENT/BRANCH</li>
+                        </ul><br>
+                        <ul style="list-style-type:circle;">
+                            <li>SOMEONE ELSE</li>
+                        </ul><br/><br><br>
+                        <input type="button" value="SAVE DRAFT" style="border-radius:3px; margin-left:100px;" />
+                        <input type="button" value="NEXT ->" style="border-radius:15px;margin-bottom:30px; margin-left:800px; color:white;background-color:#00ffff; border-color:#00ffff;width:90px;height:30px;" />
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
