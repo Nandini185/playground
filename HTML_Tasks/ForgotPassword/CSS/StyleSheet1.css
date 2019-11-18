@@ -1,0 +1,71 @@
+﻿* {
+	box-sizing: border-box;
+}
+body {
+	background:whitesmoke;
+	color: black;
+	line-height: 2;
+	font-family: Calibri;
+	padding: 4em;
+	max-width: 800px;
+	max-height:3900px;
+	height: 580px;
+	border: 1px solid lightgray;
+	
+}
+body {
+	margin: 1.5em;
+}
+
+.container {
+	background: #fff;
+	color: #525865;
+	border-radius: 4px;
+	border: 1px solid whitesmoke;
+	box-shadow: inset 0px 0px 8px lightgray;
+	font-family: inherit;
+	line-height:1em;
+	outline: none;
+	padding: 0.6em 1.45em 0.8em;
+	-webkit-transition: .18s ease-out;
+	-moz-transition: .18s ease-out;
+	-o-transition: .18s ease-out;
+	transition: .18s ease-out;
+}
+	.container:focus {
+		color: #b6ff00;
+		border: 1px solid rgba(0,0,0,0.1);
+		box-shadow: inset 1px 2px 4px rgba(0,0,0,0.1) 0px 0px 8px rgba(0,0,0,0.2);
+	}
+.container {
+	max-width: 1050px;
+	max-height: 600px;
+	width: 640px;
+	height: 510px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+}
+
+h3 {
+	font-family: Calibri;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.brand form {
+	display: grid;
+	grid-auto-rows: 1fr 1fr;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+.brand form label{
+	display:block;
+}
+.brand form p{
+	margin:0;
+}
