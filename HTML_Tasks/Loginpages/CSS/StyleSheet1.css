@@ -17,7 +17,7 @@ body {
 	margin: 1.5em;
 }
 
-.container {
+table .container {
 	background: #fff;
 	color: #525865;
 	border-radius: 4px;
@@ -32,12 +32,12 @@ body {
 	-o-transition: .18s ease-out;
 	transition: .18s ease-out;
 }
-	.container:focus {
+	table .container:focus {
 		color: #b6ff00;
 		border: 1px solid rgba(0,0,0,0.1);
 		box-shadow: inset 1px 2px 4px rgba(0,0,0,0.1) 0px 0px 8px rgba(0,0,0,0.2);
 	}
-.container {
+table .container {
 	max-width: 1050px;
 	max-height: 600px;
 	width: 640px;
