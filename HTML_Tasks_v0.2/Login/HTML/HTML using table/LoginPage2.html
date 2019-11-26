@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    
+    <title>Login Page</title>
+    <style>
+        input[type=button]{
+            width:133px;
+		height:35px;
+		border:0;
+		background: deepskyblue;
+		color: #ffffff;
+		border-radius: 50px;
+        }
+        table {
+            background: #fff;
+            color: #525865;
+            border-radius: 4px;
+            border: 1px solid whitesmoke;
+            box-shadow: inset 0px 0px 8px lightgray;
+            font-family: inherit;
+            line-height: 1em;
+            outline: none;
+            padding: 0.6em 1.45em 0.8em;
+        }
+        table{
+    width:1050px;
+	height: 470px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+}
+	table:focus {
+		color: #b6ff00;
+		border: 1px solid rgba(0,0,0,0.1);
+		box-shadow: inset 1px 2px 4px rgba(0,0,0,0.1) 0px 0px 8px rgba(0,0,0,0.2);
+	}
+body
+ {
+	background:whitesmoke;
+	color: black;
+	font-family: Calibri;
+	padding: 1em;
+	margin:1.5em;
+}
+        </style>
+</head>
+<body>
+<table>
+    <tr>
+        <td style="position:relative;left:30%;top:10px;"><h3><u>LOGIN</u></h3></td>
+        </tr>
+        
+            <form>
+               <tr>
+                   <td style="position:relative;left:30%;top:10px;">Email or Username</td>
+                   </tr>
+                    <tr>
+                        <td style="position:relative;left:30%;top:-7px;">
+                        <input type="text" size="40" name="name" text-align="left" style="border-radius:4px;" /></td>
+                        </tr>
+                    <tr> <td style="color:red;font-size:12px; position:relative;left:30%;top:-20px;">
+                        &#9888;This field is required
+                     </td></tr>
+                
+                
+                <tr>
+
+                    <td style="position:relative;left:30%;top:-20px;">Password</td></tr>
+                   <tr>
+                       <td style="position:relative;left:30%;top:-35px;"><input type="password" size="40" name="pass" text-align="left"  style="border-radius:4px;"></td>
+                       </tr>
+                <tr>
+                    <td style="color:red;font-size:12px;  position:relative;left:30%;top:-48px;">
+                    &#9888;This field is required
+                        </td>
+
+                </tr>
+                <tr>
+                    <td style="position:relative;left:30%;top:-50px;">
+                        <input type="checkbox" checked="checked" name="remember">Remember Me &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="HtmlPage3.html" text-align="right" style="position:relative;left:30px;">Forgot Password?</a><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="position:relative;left:30%;top:-40px;"><input type="button" value="Login" onclick="location.href = 'HTMLPage2.html';"></td>
+
+                </tr>
+
+            </form>
+       </table>
+   
+
+</body>
+</html>
