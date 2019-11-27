@@ -17,9 +17,9 @@
 
         .container {
             border: 3px solid #f1f1f1;
-            border-top-left-radius: 4px;
-            border-top-right-radius: 4px;
-            width: 1000px;
+            width: 1200px;
+            position:relative;
+            bottom:5em;
         }
 
 
@@ -55,7 +55,7 @@
         }
 
         body {
-            width: 1000px;
+            
             margin-left: 20px;
         }
 
@@ -87,12 +87,7 @@
             left: 5px;
         }
 
-        .button {
-            position: relative;
-            top: -40px;
-            right: 10px;
-            left: 10px;
-        }
+        
 
 
         .content {
@@ -102,7 +97,7 @@
 
         .column {
             float: left;
-            width: 30.33%;
+            width: 30%;
             padding: 10px;
             height: 70px;
         }
@@ -120,7 +115,7 @@
             float: left;
             position: relative;
             top: 20px;
-            left: -100px;
+            left: 55em;
         }
 
 
@@ -128,8 +123,9 @@
         .button {
             padding: 10px;
             float: right;
-            position: relative;
-            left: -10px;
+            position:relative;
+            left:0px;
+            bottom:35px;
         }
 
         h6 {
@@ -145,7 +141,7 @@
             margin-left: 80px;
             margin-bottom: 40px;
             margin-right: -30px;
-            padding: 3px;
+            padding:3px;
         }
 
 
@@ -173,39 +169,38 @@
             margin-left: -10px;
         }
 
-        .model3 {
+        .search {
             position: relative;
-            top: 30px;
+            top: 40px;
             right: 10px;
-            left: -40px;
+                     
         }
 
-        #model4 {
+        #request {
             position: relative;
-            top: 10px;
+            top: 20px;
             right: 10px;
             left: 30px;
         }
 
-        #model5 {
+        #filter{
             position: relative;
-            top: 5px;
-            right: 10px;
-            left: -670px;
+            top: 4px;
+            right:70em;
         }
 
-        .model6 {
+        .text {
             position: relative;
             top: 20px;
             right: 10px;
-            left: 320px;
+            left: 370px;
         }
 
-        #model7 {
+        #icon {
             position: relative;
             top: -7px;
             right: 10px;
-            left: 390px;
+            left: 435px;
         }
 
         .model8 {
@@ -223,64 +218,64 @@
             display: inline-block;
             position: relative;
             top: -40px;
-            left: -10px;
+            left: 60em;
         }
     </style>
 
 </head>
 <body>
 
-    <table class="container">
+    <table>
         <tr class="row" style="height:10px;">
 
             <td class="column left">
-            <td style="float:left; position:relative;top:5px;left:-290px;">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </td>
-            </td>
-            <td class="column left">
-            <td style="float:right">
-                <img src="../Images_v0.2/img_avatar.png" alt="Avatar" class="avatar"><h6 style="font-size:12px; position:relative;top:auto;left:-390px;">John Deo</h6>
-
-            </td>
+                <td style="float:left; position:relative;top:5px;right:10px;">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </td>
             </td>
             <td class="column left">
-            <td style="float:right">
-                <i class='down'></i>
+                <td style="float:right">
+                    <img src="../../Images/img_avatar.png" alt="Avatar" class="avatar"><h6 style="font-size:12px; position:relative;top:auto;left:49em;">John Deo</h6>
+
+                 </td>
             </td>
+            <td class="column left">
+                <td style="float:right">
+                    <i class='down'></i>
+                </td>
             </td>
 
 
-        </tr>
-    </table>
+                       </tr>
+        </table>
     <table class="container">
         <tbody class="content">
             <tr class="row">
                 <td class="column">
-                    <p id="model4"><u style="color:dodgerblue">My Requests</u></p>
+                    <p id="request"><u style="color:dodgerblue">My Requests</u></p>
                 </td>
                 <td class="column">
-                    <input type="text" value="Search" class="model3" style="border:1px solid black; width:500px;height:35px">
+                    <input type="text" value="Search" class="search" style="border:1px solid black; border-radius:39px;width:568px;height:42px">
 
                 </td>
                 <td class="column">
-                    <i style="font-size:15px; position:relative;left:10px;top:auto;" class="fa">&#xf002;</i>
+                   <i style="font-size:15px; position:relative;left:45px;top:15px;"  class="fa">&#xf002;</i>
                 </td>
                 <td class="button">
-                    <input type="button" value="New Request" style="border-radius:10px;color:white;background-color:blue; border-color:blue;">
+                    <input type="button" value="New Request" style="border-radius:35px;color:white;border-color:#32BDD2;background-color:#32BDD2; height:42px;width:133px;">
                 </td>
             </tr>
-    </table>
+            </table>
     <table class="container">
 
         <tr class="row">
             <td class="column">
-                <img src="request-icons-01.png" style="width:25px;height:25px;" id="model">
+                <img src="../../Images/request-icons-01.png" style="width:25px;height:25px;" id="model">
             </td>
 
-            <td id="model5" style="font-size:10px">
+            <td id="filter" style="font-size:10px">
                 FILTER<br />
                 <b>Showing approved requests</b>
             </td>
@@ -296,12 +291,12 @@
                 </p>
             </td>
             <td class="column">
-                <i style="font-size:20px; position:relative;top:-22px;left:80px;" class="fa">&#xf0f3;<sup style="color:red">3</sup></i>
+                <img src="../../Images/request-icons-14.png" style="width:35px;height:35px;position:relative;left:15em;">
 
             </td>
             <td class="column">
 
-                <p style="text-align:right;font-size:12px;" class="model8"> APPROVED  <span style='font-size:25px;color:#FFC60A;position:relative;left:10px;top:5px;'>&#8226;</span></p>
+                <p style="text-align:right;font-size:12px;" class="model8"> APPROVED  <span style='font-size:25px;color:lightgreen;position:relative;left:10px;top:5px;'>&#8226;</span></p>
             </td>
         </tr>
         <tr class="row">
@@ -314,11 +309,11 @@
                 </p>
             </td>
             <td class="column">
-                <i style="font-size:20px;position:relative;top:-22px;left:80px;" class="fa">&#xf0f3;<sup style="color:red">3</sup></i>
+                <img src="../../Images/request-icons-14.png" style="width:35px;height:35px;position:relative;left:15em;">
             </td>
             <td class="column">
 
-                <p style="text-align:right;font-size:12px;" class="model8"> APPROVED    <span style='font-size:25px;color: #24D081;position:relative;left:10px;top:5px;'>&#8226;</span></p>
+                <p style="text-align:right;font-size:12px;" class="model8"> APPROVED    <span style='font-size:25px;color:lightgreen;position:relative;left:10px;top:5px;'>&#8226;</span></p>
             </td>
         </tr>
         <tr class="row">
@@ -331,13 +326,13 @@
                 </p>
             </td>
             <td class="column">
-                <i style="font-size:20px;position:relative;top:-22px;left:80px;" class="fa">&#xf0f3;<sup style="color:red">3</sup></i>
+                <img src="../../Images/request-icons-14.png" style="width:35px;height:35px;position:relative;left:15em;">
             </td>
             <td class="column">
 
-                <p style="text-align:right;font-size:12px;" class="model8">APPROVED    <span style='font-size:25px;color:#CB9928;position:relative;left:10px;top:5px;'>&#8226;</span></p>
+                <p style="text-align:right;font-size:12px;" class="model8">APPROVED    <span style='font-size:25px;color:lightgreen;position:relative;left:10px;top:5px;'>&#8226;</span></p>
             </td>
-
+        
         <tr class="row">
             <td class="column">
                 <p style="font-size:10px; position:relative;left:10px;">
@@ -348,15 +343,15 @@
                 </p>
             </td>
             <td class="column">
-                <i style="font-size:20px;position:relative;top:-22px;left:80px;" class="fa">&#xf0f3;<sup style="color:red">3</sup></i>
+                <img src="../../Images/request-icons-14.png" style="width:35px;height:35px;position:relative;left:15em;">
             </td>
             <td class="column">
 
-                <p style="text-align:right; font-size:12px;" class="model8">APPROVED    <span style='font-size:25px;color:#D03E24;position:relative;left:10px;top:5px;'>&#8226;</span></p>
+                <p style="text-align:right; font-size:12px;" class="model8">APPROVED    <span style='font-size:25px;color:lightgreen;position:relative;left:10px;top:5px;'>&#8226;</span></p>
             </td>
         <tr class="row">
             <td class="column">
-                <p align="center" class="model6" style="font-size:13px;">Show More</p><i class='down' id="model7"></i>
+                <p align="center" class="text" style="font-size:13px;">Show More</p><i class='down' id="icon"></i>
             </td>
         </tr>
         </tr>
