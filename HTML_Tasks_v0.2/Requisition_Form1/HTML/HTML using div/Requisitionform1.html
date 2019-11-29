@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Requisition Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+
+
+        body {
+            margin-left: 10px;
+        }
+
+        .container {
+            border: 3px solid #F6F8F9;
+            width: 1300px;
+        }
+
+        .bar {
+            width: 15px;
+            height: 3px;
+            background-color: #aaa;
+            margin: 3px 5px;
+            display: block;
+            position: relative;
+            top: 25px;
+            right: 10px;
+            left: 15px;
+        }
+
+        .content {
+            padding: 7px;
+            background-color: #F6F8F9;
+        }
+
+
+        .column {
+            float: left;
+            width: 50%;
+        }
+
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+
+        .fa {
+            padding: 2em;
+        }
+
+        .avatar {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            position: relative;
+            left: 340px;
+            top: 18px;
+        }
+
+        h6 {
+            float: right;
+            margin-bottom: 30px;
+            position: relative;
+            left: 320px;
+            
+        }
+
+
+        .header {
+            background: white;
+            font-size: 30px;
+            width: 850px;
+            height: 40%;
+        }
+
+        i {
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 3px;
+            margin-bottom: 40px;
+            margin-right: -70px;
+        }
+
+        .m3 {
+            border: 1px solid lightblue;
+            width: 100px;
+            float: left;
+        }
+
+        #down {
+            position: relative;
+            left: 390px;
+            top: 15px;
+        }
+        .note {
+            position: relative;
+            top: 5px;
+            left: 40px;
+        }
+
+        #button {
+            position: relative;
+            left: 1000px;
+            top: 87px;
+        }
+
+        #save {
+            position: relative;
+            top: 120px;
+            left: 45px;
+        }
+
+        
+        #requisition {
+            transform: rotate(270deg);
+            position: relative;
+            top: 18px;
+        }
+
+       
+        
+
+        
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="row">
+          <div class="column left">
+                <div style="float:left">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+            <div class="column left">
+                <div style="float:right">
+                    <img src="../../Images/img_avatar.png" alt="Avatar" class="avatar"><h6 style="font-size:12px">John Deo</h6>
+                    <img src="../../Images/request-icons-05.png" style='font-size:24px;width:20px;height:20px;' id="down">
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="content">
+            <div class="row">
+                <div class="column" style="background-color:white;width:100px;height:548px;">
+                    <p id="requisition" style="font-family:Calibri;font-size:14px;line-height:5">REQUSITION</p>
+                    <img src="../../Images/request-image-30.png" style="width:80px;height:400px; position:relative;top:30px;left:6px;">
+                </div>
+                <div class="column" style="background-color:#FCFCFC;width:1180px;height:548px;">
+                    <h5 class="note" style="font-family:Calibri;">Note</h5>
+                    <p style="font-size:11px;font-family:Calibri;" class="note">Lorem ipsum dolor sit amet,consectetur adipiscing elit.Mauris mattis,tortor sit amet tempor vehicula.</p>
+                    <textarea style="width:300px; height:70px;border-radius:5px;background-color:#FCFCFC;" class="note">  </textarea><br /><br />
+                    <h4 class="note" style="font-family:Calibri;">REQUEST TYPE</h4>
+                    <p style="font-size:11px;font-family:Calibri;" class="note">Lorem ipsum dolor sit amet,consectetur adipiscing elit.Mauris mattis,tortor sit amet tempor vehicula.</p><br />
+                    <div style="font-family:Calibri;line-height:2;" class="note">
+                        <input type="radio"> SELF
+                    </div>
+                    <div style="font-family:Calibri;line-height:2;" class="note">
+                        <input type="radio"> TEAM/DEPARTMENT/BRANCH
+                    </div>
+                    <div style="font-family:Calibri;line-height:2;" class="note">
+                        <input type="radio">SOMEONE ELSE
+                    </div>
+
+                    <p  id="save" style="font-family:Calibri;font-size:12px;"><b><u>SAVE DRAFT</u></b></p>
+                    <input type="button" value="Next ->" id="button" style="border-radius:29px;color:white;background-color:#32BDD2;border-color:#32BDD2;height:30px;width:89px;" />
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+</body>
+</html>
