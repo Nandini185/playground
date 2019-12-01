@@ -5,29 +5,22 @@
     <meta charset="utf-8" />
     <title>Requisition Page</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet " />
+
     <style>
 
 
         body {
             margin-left: 10px;
+            font-family:Roboto;
         }
 
         .container {
             border: 3px solid #F6F8F9;
-            width: 1300px;
+            width: 100%;
         }
 
-        .bar {
-            width: 15px;
-            height: 3px;
-            background-color: #aaa;
-            margin: 3px 5px;
-            display: block;
-            position: relative;
-            top: 25px;
-            right: 10px;
-            left: 15px;
-        }
+        
 
         .content {
             padding: 7px;
@@ -47,17 +40,11 @@
             clear: both;
         }
 
-
-        .fa {
-            padding: 2em;
-        }
-
         .avatar {
-            width: 30px;
-            height: 30px;
+            width: 5%;
             border-radius: 50%;
             position: relative;
-            left: 340px;
+            left: 72%;
             top: 18px;
         }
 
@@ -65,16 +52,14 @@
             float: right;
             margin-bottom: 30px;
             position: relative;
-            left: 320px;
-            
+            right: 13%;
         }
 
 
         .header {
             background: white;
             font-size: 30px;
-            width: 850px;
-            height: 40%;
+            width: 100%;
         }
 
         i {
@@ -93,19 +78,20 @@
 
         #down {
             position: relative;
-            left: 390px;
-            top: 15px;
+            left: 84%;
+            top: 16px;
         }
+
         .note {
             position: relative;
-            top: 5px;
-            left: 40px;
+            top: 3%;
+            left: 5%;
         }
 
         #button {
             position: relative;
-            left: 1000px;
-            top: 87px;
+            left: 80%;
+            top: 70px;
         }
 
         #save {
@@ -114,17 +100,12 @@
             left: 45px;
         }
 
-        
+
         #requisition {
             transform: rotate(270deg);
             position: relative;
             top: 18px;
         }
-
-       
-        
-
-        
     </style>
 </head>
 <body>
@@ -133,15 +114,13 @@
         <div class="row">
           <div class="column left">
                 <div style="float:left">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
+                    <img src="../../Images/request-icons-02.png" style="width:8%;position:relative;top:10px;left:4%;">
                 </div>
             </div>
             <div class="column left">
                 <div style="float:right">
                     <img src="../../Images/img_avatar.png" alt="Avatar" class="avatar"><h6 style="font-size:12px">John Deo</h6>
-                    <img src="../../Images/request-icons-05.png" style='font-size:24px;width:20px;height:20px;' id="down">
+                    <img src="../../Images/request-icons-05.png" style='font-size:24px;height:20px;' id="down">
                 </div>
 
             </div>
@@ -151,39 +130,31 @@
     <div class="container">
         <div class="content">
             <div class="row">
-                <div class="column" style="background-color:white;width:100px;height:548px;">
-                    <p id="requisition" style="font-family:Calibri;font-size:14px;line-height:5">REQUSITION</p>
-                    <img src="../../Images/request-image-30.png" style="width:80px;height:400px; position:relative;top:30px;left:6px;">
+                <div class="column" style="background-color:white;width:5%;height:548px;">
+                    <p id="requisition" style="font-size:14px;line-height:5">REQUSITION</p>
+                    <img src="../../Images/request-image-30.png" style="width:120%;height:400px; ">
                 </div>
-                <div class="column" style="background-color:#FCFCFC;width:1180px;height:548px;">
-                    <h5 class="note" style="font-family:Calibri;">Note</h5>
-                    <p style="font-size:11px;font-family:Calibri;" class="note">Lorem ipsum dolor sit amet,consectetur adipiscing elit.Mauris mattis,tortor sit amet tempor vehicula.</p>
-                    <textarea style="width:300px; height:70px;border-radius:5px;background-color:#FCFCFC;" class="note">  </textarea><br /><br />
-                    <h4 class="note" style="font-family:Calibri;">REQUEST TYPE</h4>
-                    <p style="font-size:11px;font-family:Calibri;" class="note">Lorem ipsum dolor sit amet,consectetur adipiscing elit.Mauris mattis,tortor sit amet tempor vehicula.</p><br />
-                    <div style="font-family:Calibri;line-height:2;" class="note">
+                <div class="column" style="background-color:#FCFCFC;width:95%;height:548px;">
+                    <h5 class="note">Note</h5>
+                    <p style="font-size:11px;position:relative;left:5%">Lorem ipsum dolor sit amet,consectetur adipiscing elit.Mauris mattis,tortor sit amet tempor vehicula.</p>
+                    <textarea style="width:40%; height:16%;border-radius:5px;background-color:#FCFCFC;" class="note">  </textarea>
+                    <h4 class="note" >REQUEST TYPE</h4>
+                    <p style="font-size:11px;line-height:1" class="note">Lorem ipsum dolor sit amet,consectetur adipiscing elit.Mauris mattis,tortor sit amet tempor vehicula.</p>
+                    <div style="line-height:2;" class="note">
                         <input type="radio"> SELF
                     </div>
-                    <div style="font-family:Calibri;line-height:2;" class="note">
+                    <div style="line-height:2;" class="note">
                         <input type="radio"> TEAM/DEPARTMENT/BRANCH
                     </div>
-                    <div style="font-family:Calibri;line-height:2;" class="note">
+                    <div style="line-height:2;" class="note">
                         <input type="radio">SOMEONE ELSE
                     </div>
 
-                    <p  id="save" style="font-family:Calibri;font-size:12px;"><b><u>SAVE DRAFT</u></b></p>
-                    <input type="button" value="Next ->" id="button" style="border-radius:29px;color:white;background-color:#32BDD2;border-color:#32BDD2;height:30px;width:89px;" />
+                    <p  id="save" style="font-size:12px;"><b><u>SAVE DRAFT</u></b></p>
+                    <input type="button" value="Next ->" id="button" style="border-radius:29px;color:white;background-color:#32BDD2;border-color:#32BDD2;height:8%;width:11%;" />
                 </div>
-            </div>
-
-
-
-        </div>
-    </div>
-
-
-
-
-
+           </div>
+     </div>
+</div>
 </body>
 </html>
