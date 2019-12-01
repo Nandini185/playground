@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet " />
+    <title></title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            font-family: Roboto;
+            background: #00000029;
+            width:100%;
+        }
+
+        .container {
+            background: #00000067;
+            line-height: 1.45em;
+            padding: 0.6em 1.45em 0.8em;
+            height:758px;
+           
+        }
+
+        .content {
+            background-color: #ffffff;
+            width: 70%;
+            border: 1px solid white;
+            border-radius: 25px;
+            margin-left: 15%;
+            margin-top:6%;
+            height:90%;
+        }
+        .content label {
+                display: block;
+        }
+        p {
+            position: relative;
+            top: 35px;
+            left: 5%;
+        }
+       
+        #image {
+            position: relative;
+            left: 93%;
+            bottom:13px;
+        }
+
+        h5 {
+            position: relative;
+            top: 14px;
+            left: 5%;
+        }
+
+        #img {
+            position: relative;
+            top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="column">
+                <div class="row" style="box-shadow:0px 3px 6px #808080; border-radius:25px 25px 0px 0px;">
+                    <h5><b>ADD ITEM</b></h5>
+                    <img  src="../../Images/request-icons-13.png" id="image" style="width:30px;height:30px;">
+                </div>
+            <div class="row">
+                <p>DESCRIPTION</p>
+                    <textarea rows="5" cols="50" style="border-radius:6px;position:relative;top:45px;left:5%"></textarea>
+                <form>
+                <p>
+                    <label style="margin-top:5%;">QTY</label>
+                    <input type="text"  name="name" style="border-radius:5px; width:35%;height:35px;" />
+                </p>
+                    <p>
+                        <label style="margin-top:5%;">FULFILMENT DUEDATE</label>
+                        <input type="text"  name="name" style="border-radius:5px;width:35%;height:35px;margin-bottom:1%;" />
+                        <img src="../../Images/request-icons-17.png" id="img" style="width:38px;height:35px;">
+                    </p>
+                <p>
+                    <label style="margin-top:5%;">APPROXIMATE PRICE</label>
+                    <input type="text"  name="name" style="border-radius:5px; width:35%;height:35px;" />
+                </p>
+                    </form>
+                </div>
+                <div class="row" style="box-shadow:0px -3px 6px #808080; border-radius:0px 0px 37px 37px;position:relative;top:120px;height:60px;">
+                <h6 style="color:#000000; position:relative;left:5%;top:20px;"><u>CANCEL</u></h6>
+                <input type="button" value="DONE" style="border-radius:30px;color:#ffffff;background-color:#32BDD2;height:45%;width:10%;position:relative;left:82%;bottom:12px;border-color:#32BDD2" />
+                </div>
+            </div>
+        </div>
+        </div>
+        
+</body>
+</html>
