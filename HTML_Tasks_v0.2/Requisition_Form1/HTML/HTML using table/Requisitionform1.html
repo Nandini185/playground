@@ -7,19 +7,46 @@
    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
-        #model1 {
+        
+        * {
+            box-sizing: border-box;
+            margin:0px;
+            padding:0px;
+        }
+        .header {
+           background:#FFFFFF;
+            font-size: 30px;
+            width: 100%
+        }
+        .avatar {
+            width: 4%;
+            border-radius: 50%;
             position: relative;
-            left: 775px;
-            top: 25px;
+            left: 85%;
+            top: 5px;
+        }
+         #requisition {
+            transform: rotate(270deg);
+            position: relative;
+            top: 18px;
+        }
+         h6 {
+            float: right;
+            position: relative;
+            right: 5%;
+            top:18px;
+        }
+          #down {
+            position: relative;
+            left: 91%;
+           bottom: 5px;
         }
         .container {
             border: 8px solid whitesmoke;
             width: 100px;
             height:600px;
         }
-        .container1 {
-            width: 1300px;
-        }
+       
           .container2 {
             border: 10px solid #f1f1f1; 
           }
@@ -39,31 +66,7 @@
         .middle {
             width: 50%;
         }
-        .avatar {
-            
-            width: 30px;
-            height: 30px;
-            border-radius: 50%;
-            position:relative;
-            left:270px;
-            top:18px;
-        }
-        .bar {
-            width: 15px;
-            height: 3px;
-            background-color: #aaa;
-            margin: 3px 5px;
-            display: block;
-            position: relative;
-            top: 15px;
-            right: 10px;
-            left: 5px;
-        }
-        h6 {
-            float: right;
-            position: relative;
-           right:35px;
-        }
+        
         #model4 {
             position: relative;
             top: 18px;
@@ -167,19 +170,17 @@
 
 </head>
 <body>
-    <table class="container1">
+    <table class="header">
         <tr>
-            <td class="column left" style="float:left">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
+            <td>
+                <img src="request-icons-02.png" style="width:30px; height:30px;">
             </td>
-            <td class="column left" style="float:right">
-                <img src="../../Images/img_avatar.png" alt="Avatar" class="avatar"><h6 style="font-size:12px">John Deo</h6>
+            <td>
+                <img src="img_avatar.png" alt="Avatar" class="avatar">
+                <h6 style="font-size:12px">John Deo</h6>
+                <img src="request-icons-05.png" style='font-size:24px;height:20px;' id="down">
             </td>
-            <td class="column left" style="float:right">
-                <img src="../../Images/request-icons-05.png" style='font-size:24px;width:20px;height:20px;' id="model1">
-            </td>
+        </tr>
     </table>
     <table class="container">
 
